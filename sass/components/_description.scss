@@ -1,0 +1,31 @@
+.description {
+  &__card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  &__item {
+    flex-basis: calc((100% - 90px) / 4);
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+  &__text {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+  &__icon {
+    background-color: var(--background-color-light);
+    padding: 25px 100px;
+    display: flex;
+    justify-content: center;
+  }
+}
+p {
+  color: var(--color-light-secondary);
+}

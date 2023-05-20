@@ -1,0 +1,24 @@
+.bottom {
+  padding: 60px 0;
+  background: var(--background-color-dark);
+  &__container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+  }
+  &__place {
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--color-light);
+    padding: 20px 0 9px;
+  }
+  &__communication {
+    font-size: 14px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  &__contact {
+    padding-bottom: 9px;
+  }
+}

@@ -1,0 +1,27 @@
+.clients {
+  &__box {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__logo {
+    box-sizing: border-box;
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--icon-color);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    fill: var(--icon-color);
+    &:hover {
+      --icon-color: var(--color-active);
+    }
+  }
+  &__icon {
+    fill: var(--icon-color);
+    &:hover {
+      --icon-color: var(--color-active);
+    }
+  }
+}

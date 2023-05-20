@@ -1,0 +1,81 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  padding: 24px 0 25px;
+  &__box {
+    display: flex;
+    column-gap: 93px;
+  }
+  &__menu {
+    display: flex;
+    column-gap: 46px;
+    align-items: center;
+  }
+  &__contact {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    cursor: pointer;
+    padding-left: 290px;
+  }
+  &__contact-box {
+    display: flex;
+    align-items: center;
+  }
+  &__icon {
+    fill: var(--color-light-secondary);
+  }
+  &__page {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: var(--color-dark);
+    &:hover {
+      color: var(--color-active);
+    }
+    &:focus {
+      color: var(--color-active);
+    }
+  }
+  &__communication {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: var(--color-light-secondary);
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    &:hover {
+      color: var(--color-active);
+    }
+    &:focus {
+      color: var(--color-active);
+    }
+  }
+  &__link-active {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: var(--color-active);
+  }
+  &__page-active {
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      background: var(--color-active);
+      width: 100%;
+      height: 4px;
+      margin-top: 28px;
+      display: block;
+    }
+  }
+}
+li:hover a,
+li:hover svg {
+  color: var(--color-active);
+  --color-light-secondary: var(--color-active);
+}
