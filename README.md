@@ -1,1 +1,1 @@
-https://mlynarska-paulina.github.io/goit-markup-hw-06/
+https://mlynarska-paulina.github.io/goit-markup-hw-07/
