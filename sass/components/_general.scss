@@ -3,17 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
-ul {
+.ul {
   list-style: none;
 }
-a {
+.decoration {
   text-decoration: none;
 }
-button {
+.button {
   cursor: pointer;
 }
 
-body {
+.body {
   font-family: var(--font-primary);
   color: var(--color-dark);
   letter-spacing: 0.03em;
@@ -21,9 +21,15 @@ body {
 
 .section {
   padding: 94px 0;
+  &--additional {
+    padding-bottom: 94px;
+  }
 }
 .container {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
+}
+.width {
+  width: 100%;
 }
